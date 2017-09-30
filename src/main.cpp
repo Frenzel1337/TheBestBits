@@ -1360,7 +1360,7 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
     if (nHeight == 1) {
         nSubsidy = 268800 * COIN;
     } else {
-        nSubsidy = 1 * COIN;
+        nSubsidy = 40 * COIN;
     }
     return nSubsidy + nFees;
 }
