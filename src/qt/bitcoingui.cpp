@@ -443,11 +443,11 @@ void BitcoinGUI::createToolBars()
     toolbar->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
     toolbar->setContextMenuPolicy(Qt::PreventContextMenu);
     toolbar->setObjectName("tabs");
-    toolbar->setStyleSheet("QToolButton { color: #ffffff; font-size: 13px; font-weight: 400; font-family: 'Verdana'; padding: 5px; padding-left: 8px; border: none; }" 
-                           "QToolButton:hover { background-color: #404040; border: none; padding-top: 5px; padding-bottom: 5px; }" 
-                           "QToolButton:checked { background-color: #404040; border: none; padding-top: 5px; padding-bottom: 5px; }"
-                           "QToolButton:pressed { background-color: #404040; border: none; padding-top: 5px; padding-bottom: 5px; }"
-                           "#tabs { color: #000000; background-color: #e31b23; border: none; padding-top: 0px; padding-bottom: 0px; }");
+    toolbar->setStyleSheet("QToolButton { color: #0e0e3d; font-size: 13px; font-weight: 700; font-family: 'Verdana'; padding: 5px; padding-left: 8px; border: none; }" 
+                           "QToolButton:hover { background-color: #8a8af2; border: none; padding-top: 5px; padding-bottom: 5px; }" 
+                           "QToolButton:checked { background-color: #8a8af2; border: none; padding-top: 5px; padding-bottom: 5px; }"
+                           "QToolButton:pressed { background-color: #8a8af2; border: none; padding-top: 5px; padding-bottom: 5px; }"
+                           "#tabs { color: #000000; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 
     QLabel* header = new QLabel();
     header->setMinimumSize(152, 152);
