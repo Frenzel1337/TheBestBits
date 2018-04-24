@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = TheBestBits-qt
-VERSION = 2.0.1.7
+VERSION = 2.0.1.8
 INCLUDEPATH += src src/json src/qt src/qt/plugins/mrichtexteditor
 QT += network printsupport
 DEFINES += ENABLE_WALLET
